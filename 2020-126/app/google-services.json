@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "170174291417",
+    "firebase_url": "https://utilique-35395.firebaseio.com",
+    "project_id": "utilique-35395",
+    "storage_bucket": "utilique-35395.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170174291417:android:41afb2b738d4f63e678dc8",
+        "android_client_info": {
+          "package_name": "com.sliit.CDAP.smart_service_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170174291417-bbpbrfi415knt9tj7qdfpbfio9cigeo3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sliit.CDAP.smart_service_application",
+            "certificate_hash": "b018b15d8ca40f9eaf58c155026bcbbe954aafa6"
+          }
+        },
+        {
+          "client_id": "170174291417-hccuuv2d5215m33clgje61u57umkjj8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxcOREqhq25YV2osff8inz9hBR6ouCx7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170174291417-hccuuv2d5215m33clgje61u57umkjj8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

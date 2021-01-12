@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SM_White_"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:focusableInTouchMode="true"
+    tools:context=".ChatActivity.MainChatActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/con"
+        android:layout_marginLeft="@dimen/con">
+
+        <ImageView
+            android:id="@+id/voice_bot"
+            android:layout_width="220dp"
+            android:layout_height="160dp"
+            android:layout_margin="@dimen/con"
+            android:layout_marginStart="186dp"
+            android:layout_marginLeft="186dp"
+            android:layout_marginEnd="191dp"
+            android:layout_marginRight="191dp"
+            android:background="@drawable/group_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/backbot"
+            android:layout_width="@dimen/dimen_40dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:layout_marginBottom="120dp"
+            android:background="@drawable/ic_chevron_left"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/voice_bot"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/setbot"
+            android:layout_width="@dimen/dimen_20dp"
+            android:layout_height="@dimen/dimen_60dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="124dp"
+            android:background="@drawable/ic_menu"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/voice_bot"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/dialog_flow"
+        android:id="@+id/dialog"/>-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/messages_view"
+        android:layout_margin="@dimen/con"
+        android:layout_weight="2"
+        android:nestedScrollingEnabled="true"
+        android:divider="#fff"
+        android:layout_height="0dp"
+        >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:paddingBottom="10dp"
+        android:layout_margin="@dimen/con"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/voice_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:layout_margin="@dimen/con"
+                android:layout_marginHorizontal="10dp"
+                android:onClick="voiceBtn"
+                android:background="@drawable/repeat_grid_1"
+                android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

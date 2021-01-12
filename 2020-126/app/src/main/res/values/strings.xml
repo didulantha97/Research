@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">UtliliQue</string>
+
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="if_you_are_already_registered_login_here">If you are Already registered Login here …!</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="send">Send</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="dialog_flow">dialog flow</string>
+    <string name="click_smart_assistance">Click on the Image to Open UtiliQue Smart Assistance ...!</string>
+    <string name="captionFeedback">How was my service?</string>
+    <string name="comment">Comments</string>
+    <string name="cusFeedback">comment</string>
+    <string name="how_was_my_service">How was my service?</string>
+    <string name="textview">TextView</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="Fdbackcmnt">feedbackcomment</string>
+    <string name="serviceProviderimg">serviceProviderImage</string>
+    <string name="action_settings">Settings</string>
+    <string name="profile_desc">For All type of vehicle repairings</string>
+    <string name="profile_title">Nimal Fernando</string>
+    <string name="About">About</string>
+    <string name="Charges">Charges</string>
+    <string name="Feedbacks">Feedbacks</string>
+    <string name="msg_error_unable_select_profile_pic">Unable to set profile image. Please try again!</string>
+    <string name="lbl_set_profile_photo">Set profile image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+
+    <!-- font families -->
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_black">sans-serif-black</string>
+    <string name="font_family_thin">sans-serif-thin</string>
+    <string name="dialog_permission_title">Grant Permissions</string>
+    <string name="dialog_permission_message">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="go_to_settings">GOTO SETTINGS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="search_item">Search Item</string>
+    <string name="service_type">Service Type</string>
+    <string name="service_type_input">Service Type</string>
+    <string name="location">Location</string>
+    <string name="priority">Priority Level</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="work_description">Work Description</string>
+    <string name="request">Request</string>
+    <string name="close">Cancel</string>
+
+    <string-array name="array_technology">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Php</item>
+        <item>Hadoop</item>
+    </string-array>
+</resources>

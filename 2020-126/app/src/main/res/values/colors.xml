@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#00B8D4</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorChatDark">#FFA000</color>
+
+    <color name="SM_White_">#FFFFFF</color>
+    <color name="secondaryText">#757575</color>
+
+    <color name="colorPrimary1">#5770f3</color>
+    <color name="colorPrimaryDark1">#5770f3</color>
+    <color name="colorAccent1">#D81B60</color>
+    <color name="gradient_start">#5770f3</color>
+    <color name="gradient_end">#8e5aeb</color>
+    <color name="profile_desc">#D1D1FF</color>
+    <color name="bg_meta_container">#000000</color>
+    <color name="profile_default_tint">#e0e0e0</color>
+
+    <color name="custom_isa">#00B8D4</color>
+
+    <color name="grad1">#331c6f</color>
+    <color name="grad2">#324584</color>
+    <color name="grad3">#2dafbf</color>
+    <color name="grad4">#071845</color>
+    <color name="grad5">#774baf</color>
+    <color name="grad6">#512DA8</color>
+    <color name="grad7">#E1BEE7</color>
+    <color name="grad8">#303F9F</color>
+    <color name="grad9">#536DFE</color>
+    <color name="grad10">#1976D2</color>
+
+    <color name="bottomNav">#040043</color>
+
+
+
+
+</resources>
